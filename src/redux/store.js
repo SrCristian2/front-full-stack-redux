@@ -5,4 +5,5 @@ export const store = configureStore({
   reducer: {
     postStore:postReducer,
   },
+  devTools:process.env.NODE_ENV !== "production"
 });
